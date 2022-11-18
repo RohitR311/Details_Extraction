@@ -104,7 +104,7 @@ def detail_entry(headers, details, symbol_code):
     return row_info
 
 
-def create_file(format=".xlsx", pdf=True):
+def create_file(format=".xlsx", pdf=False):
 
     details_list = []
 
