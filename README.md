@@ -5,7 +5,7 @@ A basic image processing task to detect and enter details from images or pdf int
 
 The optimal size of images was determined by taking the mean of the heights and widths of all the images present in the “images” directory.
 This optimal size is further used to resize images while looping through all the images.
-If the “pdf” parameter is set to True in the “create_file” method then each page of input pdf is converted to an image or else the “images” directory is used as default.
+If the “pdf” parameter is set to True in the “create_file” method then each page of input pdf is converted to an image using the “pdf2image” library or else the “images” directory is used as default.
 The preferred format of “.csv” or “.xlsx” needs to be specified as a parameter as well.
 
 ## Extracting textual information:
