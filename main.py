@@ -167,5 +167,7 @@ def create_file(format=".xlsx", pdf=True):
 
 if __name__ == '__main__':
 
+    # symbol_resize()
+
     format = input("Enter file format (.csv or .xlsx): ")
     create_file(format=format, pdf=True)
